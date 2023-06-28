@@ -1,0 +1,21 @@
+$base-color: blue !default;
+$base-align: center;
+$base-size: 60px;
+$dark-theme: false;
+
+@if $dark-theme {
+    $base-color: black;
+}
+
+.heading {
+    $base-color: black;
+    color: $base-color;
+    text-align: $base-align;
+    font-size: $base-size;
+}
+
+.para {
+    color: $base-color;
+    text-align: $base-align;
+    font-size: $base-size;
+}

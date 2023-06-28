@@ -1,0 +1,9 @@
+@use './head.module.scss' as a;
+@use './para.module.scss' with (
+    $para-color: black
+);
+
+.para {
+    color: para.$para-color;
+    font-size: para.$para-size;
+}
