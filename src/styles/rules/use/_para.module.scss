@@ -1,0 +1,8 @@
+$para-color: blue;
+$para-size: 30px;
+$-para-local-variable: true;
+
+.para {
+    color: $para-color;
+    font-size: $para-size;
+}
